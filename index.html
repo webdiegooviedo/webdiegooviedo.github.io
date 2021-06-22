@@ -1,41 +1,45 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Saludo</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      html {font-family: sans-serif; text-align: center}
-      body {display: inline-block; text-align: left}
-      output {font-weight: bold}
-      footer {font-size: small}
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Saludo</h1>
-    </header>
-    <section>
-      <form id="forma">
-        <p>
-          <label accesskey="1">
-            Nombre 1
-            <input name="nombre1" type="text">
-          </label>
-        </p>
-         <p>
-          <label accesskey="2">
-            Nombre 2
-            <input name="nombre2" type="text">
-          </label>
-        </p>
-        <p><output id="salida"></output></p>
-      </form>
-    </section>
-    <footer>
-      Copyright 2021 Yo
-    </footer>
-    <script src="js/CtrlSaludo.js"></script>
-  </body>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Oviedo Pimentel Diego Emiliano</title>
+        <link href="css/estilos.css" rel="stylesheet">
+            <script type="module" src="cmp/mi-footer.js"></script> 
+    </head>
+    <body>
+        <form id="form"  action="javascript:procesa()" >
+            <h1>INGRESA LOS SIGUIENTES DATOS:</h1>
+            <p>
+                 <label for="Boleta">Boleta: </label><br>
+			<input type="text" name="Boleta" id="Boleta" required>
+			<output id="salida_boleta"></output>
+            </p>
+            <p>
+              <label for="Nombre"> Nombre: </label><br>
+			<input type="text" name="Nombre" id="Nombre" required>
+			<output id="salida_nombre"></output>
+            </p>
+            <p>
+                <label for="Grupo" >Grupo: </label><br>
+			<input type="text" name="Grupo" id="Grupo" required>
+			<output id="salida_grupo"></output>
+            </p>
+            <p>
+                <label for="Materia" >Materia: </label><br>
+			<input type="text" name="Materia" id="Materia" required>
+			<output id="salida_materia"></output>
+            </p>
+            <p>
+                <label for="Fecha" >Fecha: </label><br>
+			<input type="date" name="Fecha" id="Fecha" required>
+		    <output id="salida_fecha"></output>
+            </p>
+            <p><button type="submit" value="Procesar">ENVIAR</button></p>
+        </form>
+    <mi-footer></mi-footer>
+    <script  type="text/javascript" src="js/js.js">
+        </script>
+    </body>
 </html>
  
