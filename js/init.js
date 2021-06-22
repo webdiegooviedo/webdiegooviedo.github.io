@@ -1,11 +1,11 @@
 var firebaseConfig = {
-   apiKey: "AIzaSyCRqX4GmBVGbGe2w9CU2GCZT1LgDSmIKR4",
-    authDomain: "fbwebauth10.firebaseapp.com",
-    projectId: "fbwebauth10",
-    storageBucket: "fbwebauth10.appspot.com",
-    messagingSenderId: "685889139313",
-    appId: "1:685889139313:web:96df646e3c3f797d78e1d0",
-    measurementId: "G-0HQBLHD2QS"
+  apiKey: "AIzaSyDdjHQTT4oGuZ6wT2cEI1bNr2hZD0LLmuo",
+    authDomain: "webauth17.firebaseapp.com",
+    projectId: "webauth17",
+    storageBucket: "webauth17.appspot.com",
+    messagingSenderId: "472978946657",
+    appId: "1:472978946657:web:557bce776d76de3b5e0820",
+    measurementId: "G-DHYY9W4YN3"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
