@@ -1,5 +1,5 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyDdjHQTT4oGuZ6wT2cEI1bNr2hZD0LLmuo",
+   apiKey: "AIzaSyDdjHQTT4oGuZ6wT2cEI1bNr2hZD0LLmuo",
     authDomain: "webauth17.firebaseapp.com",
     projectId: "webauth17",
     storageBucket: "webauth17.appspot.com",
